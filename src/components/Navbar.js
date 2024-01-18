@@ -230,7 +230,7 @@ const Navbar = () => {
                     <img src="" alt="" />
                 </div>
                 <div className='box1'>
-                    <div className='box2'>
+                    {/* <div className='box2'>
                         <div className='box3'>
                             "No spam, only"
                             <div className='box-head'>Alpha</div>
@@ -284,7 +284,7 @@ const Navbar = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className='pagination-item'>
                         <div>
                             <div>
@@ -307,19 +307,19 @@ const Navbar = () => {
                                 </p>
                                 <div>
                                     <a href="">
-                                        <button className='btn0'>
-                                            <div className='btn-0'>
+                                        <button className='btn0 btn'>
+                                            <div className='btn-0 btn-design'>
                                                 ::after
                                             </div>
                                             <span></span>
-                                            <div className='btn-0-text'>Start Creating</div>
-                                            <div className='btn-0'>
+                                            <div className='btn-0-text home-btn-text'>Start Creating</div>
+                                            <div className='btn-0 btn-design'>
                                                 ::after
                                             </div>
                                         </button>
                                     </a>
                                     <a href="">
-                                        <button>View Roadmap</button>
+                                        <button className='view-btn'>View Roadmap</button>
                                     </a>
                                 </div>
                             </div>
@@ -391,54 +391,54 @@ const Navbar = () => {
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <div>
-                            <div>
-                                <div>
+                    <div className='next-section'>
+                        <div className='next-section-box'>
+                            <div className='next-section-content'>
+                                <div className='next-section-div'>
                                     "No span, only"
-                                    <div>
-                                        <div>
+                                    <div className='next-section-word'>
+                                        <div className='next-section-img'>
                                             <img src="" alt="" />
                                         </div>
                                         "Alpha"
                                     </div>
                                 </div>
-                                <div>
+                                <div className='next-section-text'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, animi!
                                 </div>
-                                <div>
+                                <div className='next-section-text next-text'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, animi!
                                 </div>
-                                <div>
+                                <div className='next-section-imgtext'>
                                     <img src="" alt="" />
                                 </div>
-                                <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, repellendus!</div>
-                                <div>
+                                <div className='next-section-text next2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, repellendus!</div>
+                                <div className='next-section-imgtext'>
                                     <img src="" alt="" />
                                 </div>
-                                <div>
+                                <div className='next-section-text next-text'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, animi!
                                 </div>
                             </div>
-                            <div>
-                                <div>
+                            <div className='next-img-section'>
+                                <div className='next-img1'>
                                     <img src="" alt="" />
                                 </div>
-                                <div>
-                                    <div>
+                                <div className='next-img2-box'>
+                                    <div className='next-img2'>
                                         <img src="" alt="" />
                                     </div>
-                                    <div>
+                                    <div className='next-img3'>
                                         <img src="" alt="" />
                                     </div>
                                 </div>
-                                <div>
+                                <div className='next-img4'>
                                     <img src="" alt="" />
                                 </div>
                             </div>
-                            <div>
-                                <div>
-                                    <div></div>
+                            <div className='nextbox1'>
+                                <div className='nextbox2'>
+                                    <div className='nextbox3'></div>
                                 </div>
                             </div>
                         </div>
@@ -447,108 +447,129 @@ const Navbar = () => {
             </div>
 
             {/* features page */}
-            <div>
-                <div>
-                    <div>
-                        <div></div>
+            <div className='features'>
+                <div className='features-container'>
+                    <div className='feature-div'>
+                        <div className='feature-div-img'></div>
                         <img src="" alt="" />
                         <img src="" alt="" />
                     </div>
-                    <div>
-                        <div>
-                            <h1>Use all the benefits of NFD</h1>
-                            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, molestiae.</span>
+                    <div className='features-box'>
+                        <div className='feature-head-section'>
+                            <h1 className='feature-heading'>Use all the benefits of NFD</h1>
+                            <span className='feature-head-inro'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, molestiae.</span>
                         </div>
-                        <div>
-                            <div>
-                                <div>
+                        <div className='features-content-box'>
+                            <div className='features-head-box'>
+                                <div className='features-content'>
+                                    <span>Activities</span>
                                     <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, accusantium.</span>
                                 </div>
-                                <div>
+                                <div className='feature-heading-div'>
                                     <span>Auto-Update feed</span>
+                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente maiores aut dolorem consequatur adipisci odio voluptates dolore praesentium nobis amet?</span>
                                 </div>
-                                <div>
+                                <div className='feature-heading-div'>
                                     <span>Calender</span>
+                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellendus reprehenderit magni quis, alias esse sunt et nihil adipisci quas.</span>
                                 </div>
-                                <div>
+                                <div className='feature-heading-div'>
                                     <span>Aggregator</span>
+                                    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur unde, deserunt veniam deleniti soluta recusandae? Officiis sint corrupti in ex.</span>
                                 </div>
-                                <div>
+                                <div className='feature-heading-div'>
                                     <span>Alpha Search</span>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eos rerum nesciunt temporibus dolores nisi sit est asperiores minus assumenda.</span>
                                 </div>
                             </div>
-                            <div>
-                                <img src="" alt="" />
+                            <div className='feature-content-img'>
+                                <img src="https://www.nfd.gg/_next/image?url=%2Fbenefits%2FactivitiesBenefitOPT.webp&w=1920&q=100" alt="" />
                             </div>
                         </div>
-                        <div>
-                            <div>
-                                <div>
+                        <div className='feature-section2'>
+                            <div className='feature-section-container'>
+                                <div className='feature-section-box'>
                                     <div>
-                                        <div>
+                                        <div className='feature-section-activity'>
                                             "0"
                                             "1"
                                         </div>
-                                        <div>Activities</div>
+                                        <div className='feature-heading2'>Activities</div>
                                     </div>
                                     <img src="" alt="" />
                                 </div>
-                                <div>
-                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam eos placeat asperiores, animi aliquid.</span>
+                                <div className='feature-content2'>
+                                    <span className='feature-text2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam eos placeat asperiores, animi aliquid.</span>
                                     <img src="" alt="" />
                                 </div>
                             </div>
-                            <div>
-                                <div>
+                            <div className='feature-section-container'>
+                                <div className='feature-section-box'>
                                     <div>
-                                        <div>
+                                        <div className='feature-section-activity'>
                                             "0"
                                             "2"
                                         </div>
-                                        <div>Auto-Update feed</div>
+                                        <div className='feature-heading2'>Auto-Update feed</div>
                                     </div>
                                     <img src="" alt="" />
                                 </div>
+                                <div className='feature-content2'>
+                                    <span className='feature-text2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam eos placeat asperiores, animi aliquid.</span>
+                                    <img src="" alt="" />
+                                </div>
                             </div>
-                            <div>
-                                <div>
+                            <div className='feature-section-container'>
+                                <div className='feature-section-box'>
                                     <div>
-                                        <div>
+                                        <div className='feature-section-activity'>
                                             "0"
                                             "3"
                                         </div>
-                                        <div>Calender</div>
+                                        <div className='feature-heading2'>Calender</div>
                                     </div>
                                     <img src="" alt="" />
                                 </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <div>
-                                        <div>
-                                            "0"
-                                            "4"
-                                        </div>
-                                        <div>Aggegator</div>
-                                    </div>
+                                <div className='feature-content2'>
+                                    <span className='feature-text2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam eos placeat asperiores, animi aliquid.</span>
                                     <img src="" alt="" />
                                 </div>
                             </div>
-                            <div>
-                                <div>
+                            <div className='feature-section-container'>
+                                <div className='feature-section-box'>
                                     <div>
-                                        <div>
+                                        <div className='feature-section-activity'>
                                             "0"
                                             "4"
                                         </div>
-                                        <div>Alph search</div>
+                                        <div className='feature-heading2'>Aggegator</div>
                                     </div>
+                                    <img src="" alt="" />
+                                </div>
+                                <div className='feature-content2'>
+                                    <span className='feature-text2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam eos placeat asperiores, animi aliquid.</span>
+                                    <img src="" alt="" />
+                                </div>
+                            </div>
+                            <div className='feature-section-container'>
+                                <div className='feature-section-box'>
+                                    <div>
+                                        <div className='feature-section-activity'>
+                                            "0"
+                                            "5"
+                                        </div>
+                                        <div className='feature-heading2'>Alph search</div>
+                                    </div>
+                                    <img src="" alt="" />
+                                </div>
+                                <div className='feature-content2'>
+                                    <span className='feature-text2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam eos placeat asperiores, animi aliquid.</span>
                                     <img src="" alt="" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div className='feature-slide-design'>
                         <div></div>
                         <img src="" alt="" />
                         <img src="" alt="" />
@@ -557,133 +578,145 @@ const Navbar = () => {
             </div>
 
             {/* roadmap page */}
-            <div>
-                <div></div>
-                <div>
-                    <img src="" alt="" />
+            <div className='roadmap-page'>
+                <div className='roadmap-box'></div>
+                <div className='raodmap-img1 raodmap-img'>
+                    <img src="https://www.nfd.gg/_next/image?url=%2Fblurs%2Ffifth_block_one_elips_blur.webp&w=2048&q=75" alt="" />
                 </div>
-                <div>
-                    <img src="" alt="" />
+                <div className='raodmap-img1 raodmap-img'>
+                    <img src="https://www.nfd.gg/_next/image?url=%2Fblurs%2Ffifth_block_two_elips_blur.webp&w=1080&q=75" alt="" />
                 </div>
-                <div>
-                    <img src="" alt="" />
+                <div className='raodmap-img1 raodmap-img'>
+                    <img src="https://www.nfd.gg/_next/image?url=%2Fblurs%2Ffifth_block_two_elips_blur.webp&w=1080&q=75" alt="" />
                 </div>
-                <div>
-                    <div>
-                        <div>
+                <div className='roadmap-heading-box'>
+                    <div className='roadmap-container-content'>
+                        <div className='roadmap-content'>
                             <h1>NFD game changing crypto platform</h1>
-                            <div>
-                                <div>
+                            <div className='roadmap-points'>
+                                <div className='roadmap-head1'>
                                     <div></div>
                                     <span>Done</span>
                                 </div>
-                                <div>
+                                <div className='roadmap-head2'>
                                     <div></div>
                                     <span>In Work</span>
                                 </div>
-                                <div>
+                                <div className='roadmap-head3'>
                                     <div></div>
                                     <span>Upcoming</span>
                                 </div>
                             </div>
                         </div>
-                        <div>
-                            <div></div>
-                            <div>
-                                <div>
-                                    <div></div>
-                                    <span></span>
-                                    <div></div>
-                                    <div>
-                                        <div>
+                        <div className='roadmap-whole'>
+                            <div className='whole-box'></div>
+                            <div className='roadmap-whole-content'>
+                                <div className='roadmap-line1'>
+                                    <div className='roadmap-div1'></div>
+                                    <span className='roadmap-span'></span>
+                                    <div className='roadmap-div2'></div>
+                                    <div className='roadmap-section1'>
+                                        <div className='road-sec-content'>
                                             <div></div>
                                             <span>Development</span>
                                         </div>
-                                        <div>
+                                        <div className='road-sec-content'>
                                             <div></div>
                                             <span>Activities and Aggregator</span>
                                         </div>
-                                        <div>
+                                        <div className='road-sec-content'>
                                             <div></div>
                                             <span>Alpha test</span>
                                         </div>
-                                        <div>
+                                        <div className='road-sec-content'>
+                                            <div></div>
+                                            <span>Alpha search tool</span>
+                                        </div>
+                                        <div className='road-sec-contentb'>
                                             <div></div>
                                             <span>Beta test</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div></div>
-                                    <span></span>
-                                    <div></div>
-                                    <div>
-                                        <div>
+                                <div className='roadmap-line1'>
+                                    <div className='roadmap-div1'></div>
+                                    <span className='roadmap-span'></span>
+                                    <div className='roadmap-div2'></div>
+                                    <div className='roadmap-section1'>
+                                        <div className='road-sec-contentb'>
                                             <div></div>
                                             <span>ROI scanner</span>
                                         </div>
-                                        <div>
+                                        <div className='road-sec-contentb'>
                                             <div></div>
                                             <span>Summary</span>
                                         </div>
-                                        <div>
+                                        <div className='road-sec-contentb'>
                                             <div></div>
                                             <span>Twitter scanner tool</span>
                                         </div>
-                                        <div>
+                                        <div className='road-sec-contentc'>
                                             <div></div>
                                             <span>Whale's analysis</span>
                                         </div>
-                                        <div>
+                                        <div className='road-sec-contentb'>
                                             <div></div>
                                             <span>Blocks in Aggregator</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div></div>
-                                    <span></span>
-                                    <div></div>
-                                    <div>
-                                        <div>
+                                <div className='roadmap-line1'>
+                                    <div className='roadmap-div1'></div>
+                                    <span className='roadmap-span'></span>
+                                    <div className='roadmap-div2'></div>
+                                    <div className='roadmap-section1'>
+                                        <div className='road-sec-contentb'>
                                             <div></div>
                                             <span>New sections in Activities</span>
                                         </div>
-                                        <div>
+                                        <div className='road-sec-contentb'>
                                             <div></div>
                                             <span>Launching NFD DAO</span>
                                         </div>
-                                        <div>
+                                        <div className='road-sec-contentb'>
                                             <div></div>
                                             <span>Expanding the Calender</span>
                                         </div>
-                                        <div>
+                                        <div className='road-sec-contentb'>
                                             <div></div>
                                             <span>Token vesting tool</span>
                                         </div>
-                                        <div>
+                                        <div className='road-sec-contentb'>
                                             <div></div>
                                             <span>NFD lab incubator</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div></div>
-                                    <span></span>
-                                    <div></div>
-                                    <div>
-                                        <div>
+                                <div className='roadmap-line1'>
+                                    <div className='roadmap-div1'></div>
+                                    <span className='roadmap-span'></span>
+                                    <div className='roadmap-div2'></div>
+                                    <div className='roadmap-section1'>
+                                        <div className='road-sec-contentc'>
+                                            <div></div>
+                                            <span>Crypto artitrage scanner</span>
+                                        </div>
+                                        <div className='road-sec-contentc'>
+                                            <div></div>
+                                            <span>Alpha search AI developing based on data collected</span>
+                                        </div>
+                                        <div className='road-sec-contentc'>
                                             <div></div>
                                             <span>Adding any services based on NFD DAO votes</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div></div>
-                                    <span></span>
-                                    <div></div>
-                                    <div>
-                                        <div>
+                                <div className='roadmap-line1'>
+                                    <div className='roadmap-div1'></div>
+                                    <span className='roadmap-span'></span>
+                                    <div className='roadmap-div2'></div>
+                                    <div className='roadmap-section1'>
+                                        <div className='road-sec-contentc'>
                                             <div></div>
                                             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, nulla.</span>
                                         </div>
@@ -691,7 +724,7 @@ const Navbar = () => {
                                 </div>
                             </div>
                         </div>
-                        <div>
+                        {/* <div>
                             <div>
                                 <div>
                                     <div>
@@ -828,7 +861,7 @@ const Navbar = () => {
                                     <span></span>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
