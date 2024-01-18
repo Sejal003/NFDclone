@@ -10,11 +10,11 @@ const Navbar = () => {
                             logo
                         </div>
                         <div className="menu">
-                            <a href="/#about" className='menu-link'>About</a>
-                            <a href="/#aggregator" className='menu-link'>Aggregator</a>
-                            <a href="/#features" className='menu-link'>Features</a>
-                            <a href="/#roadmap" className='menu-link'>Roadmap</a>
-                            <a href="/#contact" className='menu-link'>Contact</a>
+                            <a href="#about" className='menu-link'>About</a>
+                            <a href="#aggregator" className='menu-link'>Aggregator</a>
+                            <a href="#features" className='menu-link'>Features</a>
+                            <a href="#roadmap" className='menu-link'>Roadmap</a>
+                            <a href="#contact" className='menu-link'>Contact</a>
                         </div>
                         <div className='side-link'>
                             <div className='social-link'>
@@ -137,7 +137,7 @@ const Navbar = () => {
                 </div>
             </div>
             {/* about page */}
-            <div className='about'>
+            <div id='about' className='about'>
                 <div className='about-page'>
                     <div className='about-box'>
                         <div className='about-box-content'>
@@ -217,7 +217,7 @@ const Navbar = () => {
             </div>
 
             {/* aggregator page */}
-            <div className='aggerator'>
+            <div id='aggregator' className='aggerator'>
                 <div className='aggerator2'></div>
                 <div className='aggerator3'></div>
                 <div className='aggerator-imgbox'>
@@ -447,7 +447,7 @@ const Navbar = () => {
             </div>
 
             {/* features page */}
-            <div className='features'>
+            <div id='features' className='features'>
                 <div className='features-container'>
                     <div className='feature-div'>
                         <div className='feature-div-img'></div>
@@ -578,7 +578,7 @@ const Navbar = () => {
             </div>
 
             {/* roadmap page */}
-            <div className='roadmap-page'>
+            <div id='roadmap' className='roadmap-page'>
                 <div className='roadmap-box'></div>
                 <div className='raodmap-img1 raodmap-img'>
                     <img src="https://www.nfd.gg/_next/image?url=%2Fblurs%2Ffifth_block_one_elips_blur.webp&w=2048&q=75" alt="" />
@@ -1116,7 +1116,7 @@ const Navbar = () => {
 
 
             {/* contact page */}
-            <div>
+            <div id='contact' className='contact'>
                 <div>
                     <div>
                         <img src="" alt="" />
