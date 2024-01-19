@@ -2221,3 +2221,345 @@ transition: color 0.3s ease 0s;
   color: rgb(255, 255, 255);
   line-height: 20px;
 }
+.contactbPiPoV {
+  width: 100%;
+  background-color: white;
+}
+.contact-container{
+  position: relative;
+  width: 100%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(108, 82, 238);
+  height: 700px;
+  border-radius: 0px 0px 100px 100px;
+  overflow: hidden;
+}
+.cantact-img1 {
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+}
+.cantact-img2{
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+}
+.cantact-img3{
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  transform: scale(1);
+}
+.cantact-img4{
+  position: absolute;
+  left: 70%;
+  top: 80%;
+  transform: scale(1);
+}
+.cantact-img5{
+  position: absolute;
+  left: 10%;
+  bottom: -5px;
+}
+.contact-heading-box{
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  gap: 45px;
+  position: relative;
+  z-index: 5;
+  margin-top: 100px;
+}
+.contact-heading-box> h3 {
+  font-family: Syne;
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  line-height: 72px;
+  text-align: center;
+}
+.contact-btn-box{
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 43px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+.contact-btn{
+  position: relative;
+  height: 49px;
+  display: flex;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  flex-flow: row;
+  gap: 0px;
+  max-width: 206px;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+    font-weight: 500;
+  color: rgb(108, 82, 238);
+    min-width: 206px;
+  transition: all 0.5s ease 0s;
+}
+.contact-btn-div{
+  position: relative;
+  width: 24px;
+  min-width: 24px;
+  height: 49px;
+  transition: all 0.5s ease 0s;
+  left: 1px;
+  clip-path: path("M 10 49 C 4.47715 49 0 44.5229 0 39 V 19.4871 C 0 16.1312 1.68339 12.999 4.48224 11.1472 L 18.8218 1.66007 C 20.4583 0.577328 22.3773 0 24.3395 0 H 88 C 93.5228 0 98 4.47716 98 10 V 28.7016 C 98 32.0576 96.3166 35.1898 93.5178 37.0416 L 77.9521 47.3399 C 76.3155 48.4227 74.3966 49 72.4343 49 H 10 Z");
+  background-color: rgb(255, 255, 255);
+}
+.contact-btn-span {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease 0s;
+  background-color: rgb(255, 255, 255);
+}
+.contact-btn-text{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-flow: row;
+  gap: 15px;
+  z-index: 1;
+  font-size: 14px;
+  font-weight: 400;
+}
+.contact-btn2{
+  position: relative;
+  height: 49px;
+  display: flex;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  flex-flow: row;
+  gap: 0px;
+  max-width: 206px;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  font-weight: 500;
+  transition: all 0.5s ease 0s;
+  color: white;
+    min-width: 206px;
+}
+.contact-btn-div2{
+  position: relative;
+  width: 24px;
+  min-width: 24px;
+  height: 49px;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.5s ease 0s;
+  left: 1px;
+  /* mask: url(data:image/svg+xml,%3Csvg width='25' height='49' viewBox='0 0 25 49' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='path-1-inside-1_1666_70' fill='white'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10 49C4.47715 49 0 44.5229 0 39V19.4871C0 16.1312 1.68339 12.999 4.48224 11.1472L18.8218 1.66007C20.4583 0.577328 22.3773 0 24.3395 0H88C93.5228 0 98 4.47716 98 10V28.7016C98 32.0576 96.3166 35.1898 93.5178 37.0416L77.9521 47.3399C76.3155 48.4227 74.3966 49 72.4343 49H10Z'/%3E%3C/mask%3E%3Cpath d='M77.9521 47.3399L77.4003 46.5059L77.9521 47.3399ZM93.5178 37.0416L92.966 36.2076L93.5178 37.0416ZM18.8218 1.66007L18.27 0.826079L18.8218 1.66007ZM-1 19.4871V39H1V19.4871H-1ZM18.27 0.826079L3.93047 10.3132L5.03402 11.9812L19.3736 2.49406L18.27 0.826079ZM88 -1H24.3395V1H88V-1ZM99 28.7016V10H97V28.7016H99ZM78.5038 48.1739L94.0695 37.8755L92.966 36.2076L77.4003 46.5059L78.5038 48.1739ZM10 50H72.4343V48H10V50ZM77.4003 46.5059C75.9274 47.4804 74.2004 48 72.4343 48V50C74.5928 50 76.7036 49.3649 78.5038 48.1739L77.4003 46.5059ZM97 28.7016C97 31.722 95.485 34.541 92.966 36.2076L94.0695 37.8755C97.1483 35.8386 99 32.3932 99 28.7016H97ZM88 1C92.9706 1 97 5.02944 97 10H99C99 3.92487 94.0751 -1 88 -1V1ZM19.3736 2.49406C20.8464 1.5196 22.5735 1 24.3395 1V-1C22.181 -1 20.0702 -0.364939 18.27 0.826079L19.3736 2.49406ZM-1 39C-1 45.0751 3.92487 50 10 50V48C5.02944 48 1 43.9706 1 39H-1ZM1 19.4871C1 16.4668 2.51505 13.6478 5.03402 11.9812L3.93047 10.3132C0.851724 12.3501 -1 15.7956 -1 19.4871H1Z' fill='%236C52EE' mask='url(%23path-1-inside-1_1666_70)'/%3E%3C/svg%3E%0A); */
+}
+.contact-btn-span2{
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease 0s;
+  background-color: transparent;
+  border-top: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  border-image: initial;
+  border-right: none;
+  border-left: none;
+}
+.contact-btn-text2{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-flow: row;
+  gap: 15px;
+  z-index: 1;
+  font-size: 14px;
+  font-weight: 400;
+}
+.contact-note{
+  font-family: Formular;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  line-height: 21px;
+  opacity: 1;
+  transition: opacity 0.4s ease 0s;
+  cursor: pointer;
+}
+.footer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  padding: 110px 0px;
+}
+.footer-section{
+  margin: 0px 24px;
+  width: 100%;
+  max-width: 1440px;
+}
+.footer-section-box{
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.footer-section-container {
+  width: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.footer-1 {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.footer-1 > span {
+  font-family: Formular;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(79, 86, 98);
+  line-height: 17px;
+  margin-left: 60px;
+  margin-right: 98px;
+}
+.footer-links{
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  gap: 45px;
+}
+.footer-links > a {
+  font-family: Formular;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(23, 23, 23);
+  line-height: 20px;
+}
+.footer-2{
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: auto;
+  gap: 60px;
+}
+.footer-2 > a{
+  font-family: Formular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgb(108, 82, 238);
+}
+.footer-a{
+  width: 100%;
+  min-width: 170px;
+  max-width: 170px;
+}
+.footer-btn{
+  position: relative;
+  height: 49px;
+  display: flex;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  flex-flow: row;
+  gap: 0px;
+  max-width: 170px;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  min-width: 120px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  transition: all 0.5s ease 0s;
+}
+.footer-btn-design{
+  position: relative;
+  width: 24px;
+  min-width: 24px;
+  height: 49px;
+  background-color: rgb(108, 82, 238);
+  transition: all 0.5s ease 0s;
+  left: 1px;
+  clip-path: path("M 10 49 C 4.47715 49 0 44.5229 0 39 V 19.4871 C 0 16.1312 1.68339 12.999 4.48224 11.1472 L 18.8218 1.66007 C 20.4583 0.577328 22.3773 0 24.3395 0 H 88 C 93.5228 0 98 4.47716 98 10 V 28.7016 C 98 32.0576 96.3166 35.1898 93.5178 37.0416 L 77.9521 47.3399 C 76.3155 48.4227 74.3966 49 72.4343 49 H 10 Z");
+}
+.footer-btn > span {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(108, 82, 238);
+  transition: all 0.5s ease 0s;
+}
+.footer-btn-text{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-flow: row;
+  gap: 15px;
+  z-index: 1;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer-links2{
+  display: none;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  gap: 45px;
+  margin-top: 35px;
+  width: 100%;
+}
+.footer-links2 > a {
+  font-family: Formular;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(23, 23, 23);
+  line-height: 20px;
+}

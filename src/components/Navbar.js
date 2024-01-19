@@ -867,7 +867,7 @@ const Navbar = () => {
             </div>
 
             {/* section  */}
-            <div>
+            {/* <div>
                 <div>
                     <div>
                         <img src="" alt="" />
@@ -1112,84 +1112,84 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
             {/* contact page */}
             <div id='contact' className='contact'>
-                <div>
-                    <div>
+                <div className='contact-container'>
+                    <div className='cantact-img1'>
                         <img src="" alt="" />
                     </div>
-                    <div>
+                    <div className='cantact-img2'>
                         <img src="" alt="" />
                     </div>
-                    <div>
+                    <div className='cantact-img3'>
                         <img src="" alt="" />
                     </div>
-                    <div>
+                    <div className='cantact-img4'>
                         <img src="" alt="" />
                     </div>
-                    <div>
+                    <div className='cantact-img5'>
                         <img src="" alt="" />
                     </div>
-                    <div>
-                        <h3>Join our community</h3>
-                        <div>
-                            <a href="">
-                                <button>
-                                    <div></div>
-                                    <span></span>
-                                    <div>
+                    <div className='contact-heading-box'>
+                        <h3 className='contact-hrading'>Join our community</h3>
+                        <div className='contact-btn-box'>
+                            <a href="" className='contact-btn-link'>
+                                <button className='contact-btn'>
+                                    <div className='contact-btn-div'></div>
+                                    <span className='contact-btn-span'></span>
+                                    <div className='contact-btn-text'>
                                         <img src="" alt="" />
                                         Join Discord
                                     </div>
-                                    <div></div>
+                                    <div  className='contact-btn-div'></div>
                                 </button>
                             </a>
-                            <a href="">
-                                <button>
-                                    <div></div>
-                                    <span></span>
-                                    <div>
+                             <a href="" className='contact-btn-link2'>
+                                <button className='contact-btn2'>
+                                    <div className='contact-btn-div2'></div>
+                                    <span className='contact-btn-span2'></span>
+                                    <div className='contact-btn-text2'>
                                         <img src="" alt="" />
-                                        Follow twitter
+                                        Follow Twitter
                                     </div>
-                                    <div></div>
+                                    <div  className='contact-btn-div2'></div>
                                 </button>
                             </a>
                         </div>
-                        <a href="">
+                        <a href="" className='contact-note'>
                             <span>Read our whitepaper</span>
                         </a>
                     </div>
                 </div>
             </div>
-            <div>
-                <div>
-                    <div>
-                        <div>
-                            <div>
+            <div className='footer'>
+                <div className='footer-section'>
+                    <div className='footer-section-box'>
+                        <div className='footer-section-container'>
+                            <div className='footer-1'>
                                 <img src="" alt="" />
                                 <span>c 2023 NFD, INC. ALL RIGHTS RESERVED.</span>
-                                <div>
+                                <div className='footer-links'>
                                     <a href="">Privacy</a>
                                     <a href="">Term of use</a>
                                 </div>
                             </div>
-                            <div>
+                            <div className='footer-2'>
                                 <a href="">contact2nfd.gg</a>
-                                <a href="">
-                                    <button>
-                                        <div></div>
-                                        <span></span>
-                                        <div>Try app</div>
-                                        <div></div>
+                                <a href="" className='footer-a'>
+                                    <button className='footer-btn'>
+                                        <div className='footer-btn-design'></div>
+                                        <span className='footer-btn-span'></span>
+                                        <div className='footer-btn-text'>Try app</div>
+                                        <div className='footer-btn-design'></div>
                                     </button>
                                 </a>
                             </div>
                         </div>
-                        <div>
+                        <div className='footer-links2'>
                             <a href="">Privacy</a>
                             <a href="">Term of use</a>
                         </div>
